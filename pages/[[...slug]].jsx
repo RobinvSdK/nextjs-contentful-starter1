@@ -25,7 +25,7 @@ export default function ComposablePage({ page }) {
         const Component = componentMap[section.type];
         return <Component key={idx} {...section} />;
       })}
-      <h1>Test2</h1>
+      <h1>Test3</h1>
     </div>
   );
 }
