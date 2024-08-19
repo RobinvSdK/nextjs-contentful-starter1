@@ -25,6 +25,7 @@ export default function ComposablePage({ page }) {
         const Component = componentMap[section.type];
         return <Component key={idx} {...section} />;
       })}
+      <h1>TestTestWebsite text   spaces 3x.</h1>
     </div>
   );
 }
